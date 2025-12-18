@@ -17,10 +17,11 @@ router.get ('/events/:id', (request, response) => {
 })
 
 router.post('/event', (request, response) => {
-    const { id, name, location, date, time } = request.body
-    const found = events.find(event => event.id.toString() === id.toString())
-    if (found) response.send({ error: { message: `${name} already exists`} })
-    else events.push({name, location, date, time})
+    const { name, location, date, time } = request.body
+    const id = events.length + 1
+    const newEvent = {id, name, location, date, time}
+    events.push({name, location, date, time})
+    response.send(newEvent)
 })
 
 router.get('/menu', (__, response) => {
@@ -39,10 +40,11 @@ router.get ('/menu/:id', (request, response) => {
        else {response.status(400).send({ error: `Could not find the menu item ${id}`})}
 })
 router.post('/menu', (request, response) => {
-    const { id, name, description, price, url } = request.body
-    const found = foods.find(food => food.id.toString() === id.toString())
-    if (found) response.send({ error: { message: `${name} already exists`} })
-    else foods.push({name, description, price, url})
+	const { name, description, price, url } = request.body
+	const id = foods.length + 1
+	const newFood = { id, name, description, price, url }
+	foods.push(newFood)
+	response.send(newFood)
 })
 
 
