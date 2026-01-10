@@ -1,0 +1,42 @@
+
+[
+{
+  "id": 1,
+  "name": "Taco Fiesta Friday",
+  "location": "Downtown Market Square",
+  "date": "12/4/2025",
+  "time": "11:00 AM - 3:00 PM"
+},
+
+{
+  "id": 2,
+  "name": "BBQ Block Party",
+  "location": "Riverside Park Pavillion",
+  "date": "5/5/2025",
+  "time": "12:00 PM - 6:00PM"
+},
+
+{
+  "id": 3,
+  "name": "Sweet Treats Sunday",
+  "location": "Lakeside Boardwalk",
+  "date": "7/21/2025",
+  "time": "10:00 AM - 2:00 PM"
+},
+
+{
+  "id": 4,
+  "name": "Global Bites Night Market",
+  "location": "Eastside Community Plaza",
+  "date": "6/22/2025",
+  "time": "4:00 PM - 9:00 PM"
+},
+
+{
+  "id": 5,
+  "name": "Veggie Delights Pop-up",
+  "location": "Greenfield Farmers' Market",
+  "date": "12/7/2025",
+  "time": "9:00 AM - 1:00 PM"
+}
+]

@@ -1,0 +1,41 @@
+[
+{
+  "id": 1,
+  "name": "Margherita Pizza",
+  "description": "Classic pizza with fresh mozzarella, basil, and tomato sauce.",
+  "price": "12.99",
+  "url": "https://www.kierstenhickman.com/wp-content/uploads/2019/07/4-ingredient-margherita-pizza.jpg"
+},
+
+{
+  "id": 2,
+  "name": "Grilled Chicken Salad",
+  "description": "Mixed greens topped with grilled chicken, cherry tomatoes, cucumbers, and balsamic vinaigrette.",
+  "price": "10.49",
+  "url": "https://www.maebells.com/wp-content/uploads/2024/06/Grilled-Chicken-Caesar-Salad-14.jpg"
+},
+
+{
+  "id": 3,
+  "name": "Spaghetti Carbonara",
+  "description": "Pasta tossed in a creamy sauce with pancetta, egg, and Parmesan cheese.",
+  "price": "14.25",
+  "url": "https://littlespoonfarm.com/wp-content/uploads/2024/07/carbonara-on-a-plate-sprinkled-with-cheese-and-parsley.jpg"
+},
+
+{
+  "id": 4,
+  "name": "Veggie Burger",
+  "description": "Plant-based patty with lettuce, tomato, pickles, and house sauce on a toasted bun.",
+  "price": "11.75",
+  "url": "https://www.noracooks.com/wp-content/uploads/2023/04/veggie-burgers-6-1024x1536.jpg"
+},
+
+{
+  "id": 5,
+  "name": "Chocolate Lava Cake",
+  "description": "Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.",
+  "price": "6.50",
+  "url": "https://www.melskitchencafe.com/wp-content/uploads/2023/01/updated-lava-cakes8-640x928.webp"
+}
+]
